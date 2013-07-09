@@ -444,6 +444,7 @@
 				GCC_PREFIX_HEADER = "Lumberjack/Lumberjack-Prefix.pch";
 				INFOPLIST_FILE = "Lumberjack/Lumberjack-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.7;
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Debug;
@@ -458,6 +459,7 @@
 				GCC_PREFIX_HEADER = "Lumberjack/Lumberjack-Prefix.pch";
 				INFOPLIST_FILE = "Lumberjack/Lumberjack-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.7;
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Release;
